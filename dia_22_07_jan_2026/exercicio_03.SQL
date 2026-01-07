@@ -32,5 +32,5 @@ SELECT * FROM tb_estudantes WHERE nota < 9.0;
 
 UPDATE tb_estudantes SET nota = 10 WHERE id = 1; 
 
-SELECT * FROM tb_estudantes;
+SELECT * FROM tb_estudantes ORDER BY nota DESC;
 
